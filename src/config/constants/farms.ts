@@ -4,22 +4,22 @@ import { FarmConfig } from './types'
 const farms: FarmConfig[] = [
   {
     pid: 1,
-    lpSymbol: 'BECO-BNB LP',
+    lpSymbol: 'DEKO-BNB LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
       56: '0x93bA7cA08fcB20d0a3381052B8c24bdFb0a9fec7',
     },
-    token: tokens.beco,
+    token: tokens.deko,
     quoteToken: tokens.wbnb,
   },
   {
     pid: 2,
-    lpSymbol: 'BECO-USDT LP',
+    lpSymbol: 'DEKO-USDT LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
       56: '0xA3Aa99b50946358b22523cd4A1fC8A29ce6Bee98',
     },
-    token: tokens.beco,
+    token: tokens.deko,
     quoteToken: tokens.usdt,
   },
   {
