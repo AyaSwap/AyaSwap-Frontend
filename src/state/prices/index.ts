@@ -13,7 +13,7 @@ export const fetchPrices = createAsyncThunk<PriceApiThunk>('prices/fetch', async
   const response = await fetch('https://api.pancakeswap.info/api/tokens')
   const data = (await response.json()) as PriceApiResponse
 
-  const response2 = await fetch('https://api.becoswap.info/api/tokens')
+  const response2 = await fetch('https://api.pancakeswap.info/api/tokens')
   const data2 = (await response2.json()) as PriceApiResponse
 
   // Return normalized token names
@@ -27,8 +27,8 @@ export const fetchPrices = createAsyncThunk<PriceApiThunk>('prices/fetch', async
     }, {}),
   }
 
-  const becoAddr = Object.keys(data2.data)[0]
-  prices.data[becoAddr.toLowerCase()] = parseFloat(data2.data[becoAddr].price)
+  const dekoAddr = Object.keys(data2.data)[0]
+  prices.data[dekoAddr.toLowerCase()] = parseFloat(data2.data[dekoAddr].price)
 
   return prices
 })
