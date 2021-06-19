@@ -3,42 +3,42 @@ import { PageMeta } from './types'
 export const DEFAULT_META: PageMeta = {
   title: 'BecoSwap',
   description:
-    'The most popular AMM on BSC by user count! Earn BECO through yield farming or win it in the Lottery, then stake it in Syrup Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by BecoSwap), NFTs, and more, on a platform you can trust.',
+    'The most popular AMM on BSC by user count! Earn DEKO through yield farming or win it in the Lottery, then stake it in Syrup Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by DekoFinance), NFTs, and more, on a platform you can trust.',
   image: 'https://becoswap.com/images/hero.jpg',
 }
 
 export const customMeta: { [key: string]: PageMeta } = {
   '/': {
-    title: 'Home | BecoSwap',
+    title: 'Home | DekoFinance',
   },
   '/competition': {
-    title: 'Trading Battle | BecoSwap',
+    title: 'Trading Battle | DekoFinance',
   },
   '/prediction': {
-    title: 'Prediction | BecoSwap',
+    title: 'Prediction | DekoFinance',
   },
   '/farms': {
-    title: 'Farms | BecoSwap',
+    title: 'Farms | DekoFinance',
   },
   '/pools': {
-    title: 'Pools | BecoSwap',
+    title: 'Pools | DekoFinance',
   },
   '/lottery': {
-    title: 'Lottery | BecoSwap',
+    title: 'Lottery | DekoFinance',
   },
   '/collectibles': {
-    title: 'Collectibles | BecoSwap',
+    title: 'Collectibles | DekoFinance',
   },
   '/ifo': {
-    title: 'Initial Farm Offering | BecoSwap',
+    title: 'Initial Farm Offering | DekoFinance',
   },
   '/teams': {
-    title: 'Leaderboard | BecoSwap',
+    title: 'Leaderboard | DekoFinance',
   },
   '/profile/tasks': {
-    title: 'Task Center | BecoSwap',
+    title: 'Task Center | DekoFinance',
   },
   '/profile': {
-    title: 'Your Profile | BecoSwap',
+    title: 'Your Profile | DekoFinance',
   },
 }
