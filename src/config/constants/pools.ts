@@ -4,15 +4,15 @@ import { PoolConfig, PoolCategory } from './types'
 const pools: PoolConfig[] = [
   {
     sousId: 0,
-    stakingToken: tokens.beco,
-    earningToken: tokens.beco,
+    stakingToken: tokens.deko,
+    earningToken: tokens.deko,
     contractAddress: {
-      97: '0x1d32c2945C8FDCBc7156c553B7cEa4325a17f4f9',
-      56: '0x2aE8E3166fF75aF8aBB9bea2D453F084cBcd8FDA',
+      97: '',
+      56: '0xE30D1F5E94C8e45d473FCA48e66136D719D5401c',
     },
     poolCategory: PoolCategory.CORE,
     harvest: true,
-    tokenPerBlock: '4',
+    tokenPerBlock: '1',
     sortOrder: 1,
     isFinished: false,
   },
