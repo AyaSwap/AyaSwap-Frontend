@@ -6,8 +6,8 @@ const farms: FarmConfig[] = [
     pid: 1,
     lpSymbol: 'DEKO-BNB LP',
     lpAddresses: {
-      97: '0x704923893Eb29E989bB34f95cE57aC906613d907',
-      56: '',
+      97: '',
+      56: '0x704923893Eb29E989bB34f95cE57aC906613d907',
     },
     token: tokens.deko,
     quoteToken: tokens.wbnb,
