@@ -1,5 +1,5 @@
 import React from 'react'
-import { BECO_PER_BLOCK, TRANSFER_TAX } from 'config'
+import { DEKO_PER_BLOCK, TRANSFER_TAX } from 'config'
 
 import { Card, CardBody, Heading, Text } from '@becoswap-libs/uikit'
 import styled from 'styled-components'
@@ -27,27 +27,27 @@ const CakeStats = () => {
   const totalSupply = useTotalSupply()
   const burnedBalance = getBalanceNumber(useBurnedBalance(getCakeAddress()))
   const cakeSupply = totalSupply ? getBalanceNumber(totalSupply) - burnedBalance : 0
-  const becoPerBlock = BECO_PER_BLOCK.toNumber()
+  const dekoPerBlock = DEKO_PER_BLOCK.toNumber()
   return (
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {t('Beco Stats')}
+          {t('Deko Stats')}
         </Heading>
         <Row>
-          <Text fontSize="14px">{t('Total BECO Supply')}</Text>
+          <Text fontSize="14px">{t('Total DEKO Supply')}</Text>
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{t('Total BECO Burned')}</Text>
+          <Text fontSize="14px">{t('Total DEKO Burned')}</Text>
           <CardValue fontSize="14px" decimals={0} value={burnedBalance} />
         </Row>
         <Row>
-          <Text fontSize="14px">{t('New BECO/block')}</Text>
-          <CardValue fontSize="14px" decimals={0} value={becoPerBlock} />
+          <Text fontSize="14px">{t('New DEKO/block')}</Text>
+          <CardValue fontSize="14px" decimals={0} value={dekoPerBlock} />
         </Row>
         <Row>
-          <Text fontSize="14px">{t('Transfer BECO Fee')}</Text>
+          <Text fontSize="14px">{t('Transfer DEKO Fee')}</Text>
           <Text fontSize="14px">{TRANSFER_TAX}%</Text>
         </Row>
       </CardBody>
