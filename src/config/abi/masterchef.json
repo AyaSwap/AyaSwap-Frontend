@@ -2,8 +2,8 @@
   {
     "inputs": [
       {
-        "internalType": "contract BecoToken",
-        "name": "_beco",
+        "internalType": "contract DekoToken",
+        "name": "_deko",
         "type": "address"
       },
       {
@@ -13,7 +13,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_becoPerBlock",
+        "name": "_dekoPerBlock",
         "type": "uint256"
       }
     ],
@@ -263,10 +263,10 @@
   },
   {
     "inputs": [],
-    "name": "beco",
+    "name": "deko",
     "outputs": [
       {
-        "internalType": "contract BecoToken",
+        "internalType": "contract DekoToken",
         "name": "",
         "type": "address"
       }
@@ -276,7 +276,7 @@
   },
   {
     "inputs": [],
-    "name": "becoPerBlock",
+    "name": "dekoPerBlock",
     "outputs": [
       {
         "internalType": "uint256",
@@ -289,10 +289,10 @@
   },
   {
     "inputs": [],
-    "name": "becoReferral",
+    "name": "dekoReferral",
     "outputs": [
       {
-        "internalType": "contract IBecoReferral",
+        "internalType": "contract IDekoReferral",
         "name": "",
         "type": "address"
       }
@@ -443,7 +443,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingBeco",
+    "name": "pendingDeko",
     "outputs": [
       {
         "internalType": "uint256",
@@ -481,7 +481,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "accBecoPerShare",
+        "name": "accDekoPerShare",
         "type": "uint256"
       },
       {
@@ -567,12 +567,12 @@
   {
     "inputs": [
       {
-        "internalType": "contract IBecoReferral",
-        "name": "_becoReferral",
+        "internalType": "contract IDekoReferral",
+        "name": "_dekoReferral",
         "type": "address"
       }
     ],
-    "name": "setBecoReferral",
+    "name": "setDekoReferral",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
@@ -672,7 +672,7 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "_becoPerBlock",
+        "name": "_dekoPerBlock",
         "type": "uint256"
       }
     ],
