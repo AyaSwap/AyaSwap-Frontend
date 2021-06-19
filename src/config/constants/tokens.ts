@@ -3,11 +3,11 @@ const tokens = {
     symbol: 'BNB',
     projectLink: 'https://www.binance.com/',
   },
-  beco: {
-    symbol: 'BECO',
+  deko: {
+    symbol: 'DEKO',
     address: {
-      56: '0x8fe4d28476cdd43d36a12eb47dc3243c1925f263',
-      97: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
+      56: '0x648259243F8a060c38B20dc16214cf0F928F49f1',
+      97: '',
     },
     decimals: 18,
     projectLink: 'https://becoswap.com/',
