@@ -73,7 +73,7 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.busd,
   },
    {
-    pid: 8,
+    pid: 9,
     lpSymbol: 'BTC-BNB LP',
     lpAddresses: {
       97: '',
@@ -82,6 +82,7 @@ const farms: FarmConfig[] = [
     token: tokens.btcb,
     quoteToken: tokens.wbnb,
   },
+  
 ]
 
 export default farms
