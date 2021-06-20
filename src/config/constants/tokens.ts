@@ -30,6 +30,15 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://pancakeswap.finance/',
   },
+  link: {
+    symbol: 'LINK',
+    address: {
+      56: '0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://chain.link/',
+  },
   busd: {
     symbol: 'BUSD',
     address: {
