@@ -57,11 +57,7 @@ const config: MenuEntry[] = [
       },
     ],
   },
-  {
-    label: 'Lottery',
-    icon: 'TicketIcon',
-    href: '/lottery',
-  },
+  
   {
     label: 'Launchpad',
     icon: 'IfoIcon',
