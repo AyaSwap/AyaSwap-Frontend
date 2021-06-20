@@ -59,9 +59,9 @@ const config: MenuEntry[] = [
   },
   
   {
-    label: 'Launchpad',
+    label: 'Launchpad (Soon)',
     icon: 'IfoIcon',
-    href: '/launchpad',
+    href: '#',
   },
   
   {
