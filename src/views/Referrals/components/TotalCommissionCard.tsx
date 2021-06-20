@@ -15,7 +15,7 @@ const TotalCommissionCard = () => {
         <Heading size="xl" mb="24px">
           {t('Total Referral Commissions')}
         </Heading>
-        <Text bold>{referralsInfo.totalReferralCommissions} BECO</Text>
+        <Text bold>{referralsInfo.totalReferralCommissions} DEKO</Text>
       </CardBody>
     </StyledLotteryCard>
   )
