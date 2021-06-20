@@ -32,7 +32,36 @@ const farms: FarmConfig[] = [
     token: tokens.busd,
     quoteToken: tokens.wbnb,
   },
-  
+  {
+    pid: 4,
+    lpSymbol: 'ETH-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x74E4716E431f45807DCF19f284c7aA99F18a4fbc',
+    },
+    token: tokens.eth,
+    quoteToken: tokens.wbnb,
+  },
+   {
+    pid: 5,
+    lpSymbol: 'CAKE-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
+    },
+    token: tokens.cake,
+    quoteToken: tokens.wbnb,
+  },
+  {
+    pid: 6,
+    lpSymbol: 'LINK-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x824eb9faDFb377394430d2744fa7C42916DE3eCe',
+    },
+    token: tokens.link,
+    quoteToken: tokens.wbnb,
+  },
 ]
 
 export default farms
