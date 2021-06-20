@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.becoswap.com/#/swap',
+        href: 'https://exchange.pancakeswap.finance/#/swap?inputCurrency=BNB&outputCurrency=0x648259243f8a060c38b20dc16214cf0f928f49f1',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.becoswap.com/#/pool',
+        href: 'https://exchange.pancakeswap.finance/#/pool',
       },
     ],
   },
@@ -41,19 +41,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Overview',
-        href: 'https://becoswap.info',
+        href: 'https://pancakeswap.info/pair/0x704923893Eb29E989bB34f95cE57aC906613d907',
       },
       {
-        label: 'Tokens',
-        href: 'https://becoswap.info/tokens',
+        label: 'BSCScan',
+        href: 'https://bscscan.com/token/0x648259243f8a060c38b20dc16214cf0f928f49f1',
       },
       {
-        label: 'Pairs',
-        href: 'https://becoswap.info/pairs',
+        label: 'CMC (Soon)',
+        href: '#',
       },
       {
-        label: 'Accounts',
-        href: 'https://becoswap.info/accounts',
+        label: 'Coingecko (Soon)',
+        href: '#',
       },
     ],
   },
@@ -67,64 +67,36 @@ const config: MenuEntry[] = [
     icon: 'IfoIcon',
     href: '/launchpad',
   },
+  
   {
-    label: 'NFT Marketplace',
-    icon: 'NftIcon',
-    href: 'https://docs.becoswap.com/products/nft-marketplace',
-  },
-
-  {
-    label: 'Bridge',
+    label: 'Polygon (Soon)',
     icon: 'BridgeIcon',
-    href: 'https://docs.becoswap.com/products/cross-chain-bridge',
+    href: '#',
   },
 
-  {
-    label: 'Becochain',
-    icon: 'ChainIcon',
-    href: 'https://docs.becoswap.com/products/becochain',
-  },
-
-  {
-    label: 'Stocks',
-    icon: 'StockIcon',
-    href: 'https://docs.becoswap.com/products/stocks',
-  },
-
-  {
-    label: 'Supply Chain',
-    icon: 'SupplyChainIcon',
-    href: 'https://docs.becoswap.com/products/supplychain',
-  },
-
-  {
-    label: 'Games',
-    icon: 'NftIcon',
-    href: 'https://docs.becoswap.com/products/games',
-  },
   {
     label: 'More',
     icon: 'MoreIcon',
     items: [
       {
-        label: 'Contact',
-        href: 'https://docs.becoswap.com/contact-us',
+        label: 'Twitter',
+        href: 'https://twitter.com/deko_finance',
       },
       {
-        label: 'Voting',
-        href: 'https://snapshot.org/#/becoswap.eth',
+        label: 'Voting (Soon)',
+        href: '#',
       },
       {
         label: 'Github',
-        href: 'https://github.com/becoswap',
+        href: 'https://github.com/dekofinance',
       },
       {
         label: 'Docs',
-        href: 'https://docs.becoswap.com',
+        href: 'https://docs.dekofinance.live',
       },
       {
-        label: 'Blog',
-        href: 'https://becoswap.medium.com',
+        label: 'Blog (Soon)',
+        href: '#',
       },
     ],
   },
