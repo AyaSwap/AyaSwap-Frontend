@@ -64,13 +64,13 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 7,
-    lpSymbol: 'BUSD-USDT LP',
+    lpSymbol: 'USDT-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x824eb9faDFb377394430d2744fa7C42916DE3eCe',
+      56: '0x7efaef62fddcca950418312c6c91aef321375a00',
     },
-    token: tokens.busd,
-    quoteToken: tokens.usdt,
+    token: tokens.usdt,
+    quoteToken: tokens.busd,
   },
 ]
 
