@@ -19,7 +19,7 @@ const pools: PoolConfig[] = [
   {
     sousId: 1,
     stakingToken: tokens.wbnb,
-    earningToken: tokens.beco,
+    earningToken: tokens.deko,
     contractAddress: {
       97: '',
       56: '0xE30D1F5E94C8e45d473FCA48e66136D719D5401c',
