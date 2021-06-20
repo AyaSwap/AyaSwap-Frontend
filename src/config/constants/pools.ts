@@ -16,20 +16,7 @@ const pools: PoolConfig[] = [
     sortOrder: 1,
     isFinished: false,
   },
-  {
-    sousId: 1,
-    stakingToken: tokens.wbnb,
-    earningToken: tokens.deko,
-    contractAddress: {
-      97: '',
-      56: '0xE30D1F5E94C8e45d473FCA48e66136D719D5401c',
-    },
-    poolCategory: PoolCategory.CORE,
-    harvest: true,
-    tokenPerBlock: '0.1',
-    sortOrder: 1,
-    isFinished: false,
-  },
+  
 ]
 
 export default pools
