@@ -10,7 +10,7 @@ const tokens = {
       97: '',
     },
     decimals: 18,
-    projectLink: 'https://becoswap.com/',
+    projectLink: 'https://dekofinance.live/',
   },
   btcb: {
     symbol: 'BTCB',
