@@ -44,6 +44,10 @@ const config: MenuEntry[] = [
         href: 'https://pancakeswap.info/pair/0x704923893Eb29E989bB34f95cE57aC906613d907',
       },
       {
+        label: 'Token',
+        href: 'https://pancakeswap.info/token/0x648259243f8a060c38b20dc16214cf0f928f49f1',
+      },
+      {
         label: 'BSCScan',
         href: 'https://bscscan.com/token/0x648259243f8a060c38b20dc16214cf0f928f49f1',
       },
@@ -88,7 +92,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Docs',
-        href: 'https://docs.dekofinance.live',
+        href: 'https://dekofinance.medium.com/',
       },
       {
         label: 'Blog (Soon)',
