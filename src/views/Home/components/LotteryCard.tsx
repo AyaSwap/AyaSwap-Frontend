@@ -96,9 +96,9 @@ const LotteryCard = () => {
     <StyledLotteryCard>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {t('Your Lottery Winnings')}
+          {t('Lottery Coming Soon')}
         </Heading>
-        <CardImage src="/images/ticket.svg" alt="cake logo" width={64} height={64} />
+        <CardImage src="/images/cake.svg" alt="cake logo" width={64} height={64} />
         <Block>
           <Label>{t('DEKO to Collect')}:</Label>
           <CakeWinnings claimAmount={claimAmount} />
