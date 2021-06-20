@@ -75,7 +75,7 @@ const LotteryCard = () => {
   const renderLotteryTicketButtonBuyOrApprove = () => {
     if (!allowance.toNumber()) {
       return (
-        <Button disabled width="100%" disabled={requestedApproval} onClick={handleApprove}>
+        <Button width="100%" disabled={requestedApproval} onClick={handleApprove}>
           {t('Approve DEKO')}
         </Button>
       )
@@ -109,7 +109,7 @@ const LotteryCard = () => {
         </Block>
         {account ? (
           <Actions>
-            <Button disabled
+            <Button
               id="dashboard-collect-winnings"
               disabled={getBalanceNumber(claimAmount) === 0 || requestClaim}
               onClick={handleClaim}
