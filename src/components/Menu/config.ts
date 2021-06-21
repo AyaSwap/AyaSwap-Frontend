@@ -36,6 +36,24 @@ const config: MenuEntry[] = [
     href: '/referrals',
   },
   {
+    label: 'Audits/Reviews',
+    icon: 'NftIcon',
+    items: [
+      {
+        label: 'RugDoc',
+        href: 'https://rugdoc.io/project/deko-finance/',
+      },
+      {
+        label: 'Certik (Soon)',
+        href: '#',
+      },
+      
+    ],
+  },
+  
+  
+  
+  {
     label: 'Analytics',
     icon: 'InfoIcon',
     items: [
