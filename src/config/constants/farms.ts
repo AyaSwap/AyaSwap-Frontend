@@ -33,6 +33,16 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.wbnb,
   },
   {
+    pid: 10,
+    lpSymbol: 'DEKO-USDT LP',
+    lpAddresses: {
+      97: '',
+      56: '0xB0EbFbf00707E2259525A1A546042bd109Cf7e6C',
+    },
+    token: tokens.deko,
+    quoteToken: tokens.usdt,
+  },
+  {
     pid: 4,
     lpSymbol: 'ETH-BNB LP',
     lpAddresses: {
