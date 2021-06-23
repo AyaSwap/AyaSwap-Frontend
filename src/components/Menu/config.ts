@@ -50,7 +50,12 @@ const config: MenuEntry[] = [
       
     ],
   },
-  
+  {
+    label: 'Countdown',
+    icon: 'ChainIcon',
+    href: 'https://bscscan.com/block/countdown/8677777',
+  },
+
   
   
   {
