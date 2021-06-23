@@ -58,6 +58,7 @@ const Home: React.FC = () => {
           {t('Deko Finance')}
         </Heading>
         <Text>{t('The Best High Yield Farm & AMM on Binance Smart Chain.')}</Text>
+        <Text>Farming & Stacking start block </Text><a href="https://bscscan.com/block/countdown/8677777">#8677777 </a>
       </Hero>
       <Page>
         <div>
