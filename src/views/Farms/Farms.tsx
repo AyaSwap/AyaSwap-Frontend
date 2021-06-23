@@ -367,6 +367,7 @@ const Farms: React.FC = () => {
         </Heading>
         <Heading size="lg" color="text">
           {t('Stake Liquidity Pool (LP) tokens to earn.')}
+          <Text>Farming start block </Text><a href="https://bscscan.com/block/countdown/8677777" target="_blank">#8677777 </a>
         </Heading>
       </PageHeader>
       <Page>
