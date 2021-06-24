@@ -55,7 +55,7 @@ const Referrals: React.FC = () => {
               {t('Referels')}
             </Heading>
             <Heading size="md" color="text">
-              {t('Share the referral link below to invite your friends and earn 1% of your friends earnings FOREVER!')}
+              {t('Share the referral link below to invite your friends and earn 10% of your friends earnings FOREVER!')}
             </Heading>
           </Flex>
         </Flex>
