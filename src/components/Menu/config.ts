@@ -1,7 +1,5 @@
 import { MenuEntry } from '@becoswap-libs/uikit'
-import { usePriceCakeBusd } from 'state/hooks'
 
-const cakePriceUsd = usePriceCakeBusd()
 const config: MenuEntry[] = [
   {
     label: 'Home',
@@ -98,11 +96,7 @@ const config: MenuEntry[] = [
     icon: 'BridgeIcon',
     href: '#',
   },
-  {
-    label: 'cakePriceUsd={cakePriceUsd.toNumber()}',
-    icon: 'BridgeIcon',
-    href: '#',
-  },
+ 
   {
     label: 'More',
     icon: 'MoreIcon',
