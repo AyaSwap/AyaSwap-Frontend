@@ -1,5 +1,5 @@
-import { usePriceCakeBusd } from 'state/hooks'
 import { MenuEntry } from '@becoswap-libs/uikit'
+import { usePriceCakeBusd } from 'state/hooks'
 
 const cakePriceUsd = usePriceCakeBusd()
 const config: MenuEntry[] = [
