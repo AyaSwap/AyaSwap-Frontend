@@ -66,6 +66,20 @@ export interface FarmConfig {
     endBlock: number
   }
 }
+export enum QuoteToken {
+  'BNB' = 'BNB',
+  'WBNB' = 'WBNB',
+  'SALT' = 'SALT',
+  'SUSHI' = 'SUSHI',
+  'CAKE' = 'CAKE',
+  'SYRUP' = 'SYRUP',
+  'BUSD' = 'BUSD',
+  'ETH' = 'ETH',
+  'TWT' = 'TWT',
+  'UST' = 'UST',
+  'DEKO' = 'DEKO',
+
+}
 
 export interface PoolConfig {
   sousId: number
