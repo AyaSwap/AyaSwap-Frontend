@@ -1,5 +1,5 @@
 import tokens from './tokens'
-import { FarmConfig } from './types'
+import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
   {
