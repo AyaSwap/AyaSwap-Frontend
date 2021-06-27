@@ -92,7 +92,16 @@ const farms: FarmConfig[] = [
     token: tokens.btcb,
     quoteToken: tokens.wbnb,
   },
-  
+  {
+    pid: 10,
+    lpSymbol: 'SHIB-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x6b7b3523a6660a5fce3c28e1536cc8dd8d57f7e0',
+    },
+    token: tokens.shib,
+    quoteToken: tokens.wbnb,
+  },
 ]
 
 export default farms
