@@ -1,4 +1,20 @@
 export default {
+  deko: {
+    56: '0x648259243f8a060c38b20dc16214cf0f928f49f1',
+    97: '', // 
+  },
+  wbnb: {
+    56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    97: '',
+  },
+  busd: {
+    56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
+    97: '',
+  },
+  eth: {
+    56: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
+    97: '',
+  },
   masterChef: {
     97: '0x1d32c2945C8FDCBc7156c553B7cEa4325a17f4f9',
     56: '0xE30D1F5E94C8e45d473FCA48e66136D719D5401c',
