@@ -106,6 +106,10 @@ const config: MenuEntry[] = [
         href: 'https://twitter.com/deko_finance',
       },
       {
+        label: 'Telegram',
+        href: 'https://t.me/joinchat/xGB5GJi5hythYTdl',
+      },
+      {
         label: 'Voting (Soon)',
         href: '#',
       },
@@ -117,10 +121,7 @@ const config: MenuEntry[] = [
         label: 'Docs',
         href: 'https://dekofinance.medium.com/',
       },
-      {
-        label: 'Blog (Soon)',
-        href: '#',
-      },
+      
     ],
   },
 ]
