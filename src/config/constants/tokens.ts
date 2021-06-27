@@ -167,6 +167,15 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://tron.network/',
   },
+  shib: {
+    symbol: 'SHIB',
+    address: {
+      56: '0x2859e4544c4bb03966803b044a93563bd2d0dd4d',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://shibatoken.com/',
+  },
 }
 
 export default tokens
