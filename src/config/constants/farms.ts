@@ -43,6 +43,16 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.wbnb,
   },
   {
+    pid: 14,
+    lpSymbol: 'USDT-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x16b9a82891338f9ba80e2d6970fdda79d1eb0dae',
+    },
+    token: tokens.usdt,
+    quoteToken: tokens.wbnb,
+  },
+  {
     pid: 4,
     lpSymbol: 'ETH-BNB LP',
     lpAddresses: {
