@@ -172,6 +172,16 @@ const farms: FarmConfig[] = [
     token: tokens.tusd,
     quoteToken: tokens.busd,
   },
+  {
+    pid: 19,
+    lpSymbol: 'DOT-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xdd5bad8f8b360d76d12fda230f8baf42fe0022cf',
+    },
+    token: tokens.dot,
+    quoteToken: tokens.wbnb,
+  },
 ]
 
 export default farms
