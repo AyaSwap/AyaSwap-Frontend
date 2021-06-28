@@ -23,16 +23,6 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.busd,
   },
   {
-    pid: 3,
-    lpSymbol: 'BNB-BUSD LP',
-    lpAddresses: {
-      97: '',
-      56: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',
-    },
-    token: tokens.busd,
-    quoteToken: tokens.wbnb,
-  },
-  {
     pid: 10,
     lpSymbol: 'DEKO-USDT LP',
     lpAddresses: {
@@ -41,6 +31,16 @@ const farms: FarmConfig[] = [
     },
     token: tokens.deko,
     quoteToken: tokens.usdt,
+  },
+  {
+    pid: 3,
+    lpSymbol: 'BNB-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',
+    },
+    token: tokens.busd,
+    quoteToken: tokens.wbnb,
   },
   {
     pid: 4,
