@@ -176,6 +176,15 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://shibatoken.com/',
   },
+  dot: {
+    symbol: 'DOT',
+    address: {
+      56: '0x7083609fce4d1d8dc0c979aab8c869ea2c873402',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://polkadot.network/',
+  },
 }
 
 export default tokens
