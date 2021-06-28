@@ -32,7 +32,16 @@ const farms: FarmConfig[] = [
     token: tokens.deko,
     quoteToken: tokens.usdt,
   },
-  
+  {
+    pid: 21,
+    lpSymbol: 'USDC-USDT LP',
+    lpAddresses: {
+      97: '',
+      56: '0xec6557348085aa57c72514d67070dc863c0a5a8c',
+    },
+    token: tokens.usdt,
+    quoteToken: tokens.usdc,
+  },
     {
     pid: 20,
     lpSymbol: 'ADA-BNB LP',
