@@ -8,49 +8,39 @@ import { fetchPoolsTotalStaking } from '../state/pools/fetchPools'
  * Due to Cors the api was forked and a proxy was created
  * @see https://github.com/pancakeswap/gatsby-pancake-api/commit/e811b67a43ccc41edd4a0fa1ee704b2f510aa0ba
  */
-export const baseUrl = 'https://api.becoswap.info/api'
+export const baseUrl = 'https://gatsby-pancake-api-git-master-pancakeswap.vercel.app'
 
 /* eslint-disable camelcase */
 
-export interface ApiSummaryResponse {
+export interface TradePair {
+  swap_pair_contract: string
+  base_symbol: string
+  quote_symbol: string
+  last_price: number
+  base_volume_24_h: number
+  quote_volume_24_h: number
+}
+
+export interface ApiStatResponse {
   update_at: string
-  data: Map<string, Summary>
-}
-
-export interface Summary {
-  liquidity: string
-}
-
-export interface Stats {
-  tvl: number
+  '24h_total_volume': number
+  total_value_locked: number
+  total_value_locked_all: number
+  trade_pairs: {
+    [key: string]: TradePair
+  }
 }
 
 export const useGetStats = () => {
-  const [data, setData] = useState<Stats | null>(null)
+  const [data, setData] = useState<ApiStatResponse | null>(null)
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`${baseUrl}/summary`)
-        const responsedata: ApiSummaryResponse = await response.json()
+        const response = await fetch(`${baseUrl}/stat`)
+        const responsedata: ApiStatResponse = await response.json()
 
-        const stats: Stats = { tvl: 0 }
-        // eslint-disable-next-line
-        Object.keys(responsedata.data).forEach(function (key) {
-          stats.tvl += parseInt(responsedata.data[key].liquidity)
-        })
-
-        const pools = await fetchPoolsTotalStaking()
-        const becoPrice = parseInt(
-          responsedata.data['0x55d398326f99059fF775485246999027B3197955_0x8fe4d28476cdd43d36a12eb47dc3243c1925f263']
-            .price,
-        )
-        pools.forEach((pool) => {
-          const total = getBalanceNumber(new BigNumber(pool.totalStaked), 18) / becoPrice
-          stats.tvl += total
-        })
-
-        setData(stats)
+        setData(responsedata)
       } catch (error) {
         console.error('Unable to fetch data:', error)
       }
