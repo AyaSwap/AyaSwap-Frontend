@@ -142,6 +142,16 @@ const farms: FarmConfig[] = [
     token: tokens.usdc,
     quoteToken: tokens.busd,
   },
+  {
+    pid: 16,
+    lpSymbol: 'LTC-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x71b01ebddd797c8e9e0b003ea2f4fd207fbf46cc',
+    },
+    token: tokens.ltc,
+    quoteToken: tokens.wbnb,
+  },
 ]
 
 export default farms
