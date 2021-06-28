@@ -185,6 +185,16 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://polkadot.network/',
   },
+  ada: {
+    symbol: 'ADA',
+    address: {
+      56: '0x3ee2200efb3400fabb9aacf31297cbdd1d435d47',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://cardano.org/',
+  },
+
 }
 
 export default tokens
