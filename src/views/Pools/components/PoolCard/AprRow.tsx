@@ -29,7 +29,7 @@ const AprRow: React.FC<AprRowProps> = ({
   const { stakingToken, earningToken, totalStaked, isFinished, tokenPerBlock } = pool
 
   const tooltipContent = isAutoVault
-    ? t('APY includes compounding, APR doesn’t. This pool’s BECO is compounded automatically, so we show APY.')
+    ? t('APY includes compounding, APR doesn’t. This pool’s DEKO is compounded automatically, so we show APY.')
     : t('This pool’s rewards aren’t compounded automatically, so we show APR')
 
   const { targetRef, tooltip, tooltipVisible } = useTooltip(tooltipContent, { placement: 'bottom-end' })
