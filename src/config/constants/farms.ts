@@ -33,6 +33,16 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.usdt,
   },
   {
+    pid: 23,
+    lpSymbol: 'DAI-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0x66FDB2eCCfB58cF098eaa419e5EfDe841368e489',
+    },
+    token: tokens.dai,
+    quoteToken: tokens.busd,
+  },
+  {
     pid: 22,
     lpSymbol: 'CAKE-USDT LP',
     lpAddresses: {
