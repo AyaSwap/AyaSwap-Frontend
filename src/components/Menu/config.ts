@@ -50,12 +50,6 @@ const config: MenuEntry[] = [
       
     ],
   },
-  {
-    label: 'Countdown',
-    icon: 'ChainIcon',
-    href: 'https://bscscan.com/block/countdown/8677777',
-  },
-
   
   
   {
@@ -91,11 +85,6 @@ const config: MenuEntry[] = [
     href: '#',
   },
   
-  {
-    label: 'Polygon (Soon)',
-    icon: 'BridgeIcon',
-    href: '#',
-  },
  
   {
     label: 'More',
