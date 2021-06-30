@@ -33,6 +33,16 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.usdt,
   },
   {
+    pid: 12,
+    lpSymbol: 'DOGE-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xac109c8025f272414fd9e2faa805a583708a017f',
+    },
+    token: tokens.doge,
+    quoteToken: tokens.wbnb,
+  },
+  {
     pid: 23,
     lpSymbol: 'DAI-BUSD LP',
     lpAddresses: {
@@ -164,16 +174,7 @@ const farms: FarmConfig[] = [
     token: tokens.shib,
     quoteToken: tokens.wbnb,
   },
-  {
-    pid: 12,
-    lpSymbol: 'DOGE-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0xac109c8025f272414fd9e2faa805a583708a017f',
-    },
-    token: tokens.doge,
-    quoteToken: tokens.wbnb,
-  },
+  
   {
     pid: 13,
     lpSymbol: 'USDC-BUSD LP',
